@@ -2,7 +2,7 @@
 
 A FastAPI service that compares the recent GitHub momentum of two repositories using weekly star growth and an EWMA-based trend score.
 
-This project was built to explore whether open-source developer attention can act as a lightweight signal for platform momentum. A practical example is comparing NVIDIA's `TensorRT` ecosystem with AMD's `ROCm` ecosystem by looking at how their GitHub star growth is trending over recent weeks.
+This project was built to explore whether open-source developer attention can act as a lightweight leading indicator of AI platform momentum. A practical example is comparing NVIDIA's `TensorRT` ecosystem with AMD's `ROCm` ecosystem by looking at how their GitHub star growth is trending over recent weeks.
 
 ## Why this project is interesting
 
@@ -162,6 +162,10 @@ Run tests with:
 ```bash
 pytest -q
 ```
+
+## License
+
+This project is released under the MIT License. See [`LICENSE`](LICENSE).
 
 ## Architecture notes
 
