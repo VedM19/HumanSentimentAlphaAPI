@@ -61,8 +61,7 @@ Example:
 
 That tells you how attention changes over time.
 
-To compare recent trend strength, the app uses an EWMA (Exponentially Weighted Moving Average). The EWMA
-is calculated using alpha = 2 / (span + 1), where span is the number of weekly observations to emphasize. Lower spans make the score more reactive; higher spans make it smoother. This makes it better at answering:
+To compare recent trend strength, the app uses an EWMA (Exponentially Weighted Moving Average). The EWMA is calculated using alpha = 2 / (span + 1), where span is the number of weekly observations to emphasize. Lower spans make the score more reactive; higher spans make it smoother. This makes it better at answering:
 
 "Which repository appears to be gaining momentum right now?"
 
